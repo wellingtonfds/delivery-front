@@ -8,9 +8,9 @@ export interface LayoutTemplateProps {
 
 export function LayoutTemplate({ children }: LayoutTemplateProps) {
   return (
-    <main className="bg-white text-foreground p-2 relative">
+    <main className="min-h-[100vh] bg-white text-foreground p-2 relative ">
       <LayoutHeaderDesktop />
-      <div className="mx-auto p-5 pb-16 border-solid border-red border-red border-1 ">
+      <div className="mx-auto p-5 pb-16 border-solid border-red border-red border-1">
         {children}
       </div>
       <LayoutFooter />
