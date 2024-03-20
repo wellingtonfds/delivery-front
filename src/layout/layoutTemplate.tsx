@@ -1,4 +1,6 @@
 import { ReactNode } from "react"
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 import { LayoutFooter } from "./layoutFooter"
 import { LayoutHeaderDesktop } from "./layoutHeaderDesktop"
 
@@ -14,6 +16,7 @@ export function LayoutTemplate({ children }: LayoutTemplateProps) {
         {children}
       </div>
       <LayoutFooter />
+      <ToastContainer />
     </main>
 
   )
