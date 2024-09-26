@@ -7,7 +7,6 @@ export function LayoutHeaderDesktop() {
             <NavbarBrand>
                 <Link href='/' arial-current="">
                     <p className="font-bold text-inherit">Delivery</p>
-
                 </Link>
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
